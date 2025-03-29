@@ -1,26 +1,44 @@
-# grammy_winners
+# Most Streamed Spotify Songs 2023
 
-# Grammy Winners and Nominees Dataset
+Este proyecto tiene como objetivo analizar las canciones más reproducidas en Spotify durante el año 2023 para entender las tendencias de consumo musical, la popularidad de los artistas y el impacto de las plataformas de streaming en la industria musical. 
 
-Este dataset proporciona información estructurada sobre los ganadores y nominados a los premios Grammy.
+A través de este análisis, buscamos responder preguntas clave como:
+- ¿Cuáles fueron las canciones más escuchadas en 2023?
+- ¿Qué artistas dominaron las listas de reproducción?
+- ¿Existe alguna relación entre la fecha de lanzamiento y el éxito de una canción?
+- ¿Qué influencia tienen las playlists en la popularidad de una canción?
 
-## 📊 Columnas del Dataset
+## Objetivo del Proyecto
 
-| Columna         | Descripción |
-|----------------|------------|
-| **year**        | Año de la ceremonia de los premios Grammy. |
-| **annual_edition** | Número de edición de los Grammy (ej. "9th Annual Grammy Awards"). |
-| **category**    | Categoría específica del premio Grammy. |
-| **artist**      | Nombre del artista, grupo o productor nominado o ganador. |
-| **song_or_album** | Canción, álbum o trabajo asociado a la nominación. |
-| **winner**      | Valor booleano (True/False) que indica si el nominado ganó el premio. |
-| **url**        | Enlace al sitio oficial de los Grammy para referencia. |
+El propósito de este proyecto es transformar datos en información útil mediante la limpieza y organización del dataset, para luego presentar hallazgos visualmente atractivos y comprensibles en Power BI. 
 
-## 📌 Uso del Dataset
+Este estudio está dividido en dos fases principales:
+1. **Limpieza y procesamiento de datos**: Usamos Python para asegurar que los datos sean precisos, estructurados y listos para su análisis.
+2. **Visualización y análisis en Power BI**: Creamos dashboards interactivos para identificar patrones y generar insights sobre la música más popular del año.
 
-Este dataset es útil para:  
-✅ Analizar ganadores y nominados de los premios Grammy a lo largo del tiempo.  
-✅ Identificar tendencias en la industria musical.  
-✅ Explorar cómo diferentes artistas y géneros han sido reconocidos históricamente.  
+## Dataset Utilizado
 
-📍 **Fuente:** [Sitio Oficial de los Grammy](https://www.grammy.com/)
+El dataset contiene información sobre las canciones más reproducidas en Spotify en 2023, incluyendo detalles como el nombre de la canción, los artistas, la cantidad de reproducciones y su presencia en playlists. 
+
+Las columnas del dataset son:
+
+| **Columna**            | **Descripción**                                                                                                              |
+|------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| **track_name**         | Nombre de la canción.                                                                                                        |
+| **artist(s)_name**     | Nombre(s) del o de los artistas que interpretan la canción.                                                                  |
+| **artist_count**       | Número de artistas involucrados en la canción.                                                                              |
+| **released_year**      | Año de lanzamiento de la canción.                                                                                            |
+| **released_month**     | Mes de lanzamiento de la canción.                                                                                            |
+| **released_day**       | Día de lanzamiento de la canción.                                                                                            |
+| **in_spotify_playlists** | Número de playlists en Spotify en las que se encuentra la canción.                                                          |
+| **in_spotify_charts**  | Indicador de si la canción apareció en los charts de Spotify.                                                                |
+| **streams**            | Total de reproducciones que ha acumulado la canción en Spotify.                                                              |
+| **in_apple_playlists** | Número de playlists en Apple Music en las que se encuentra la canción.                                                       |
+
+## Impacto del Proyecto
+
+Este análisis busca generar valor tanto para analistas de datos como para profesionales de la industria musical, ofreciendo información clave sobre cómo las canciones y los artistas logran destacar en las plataformas de streaming. 
+
+Con este estudio, se pueden identificar tendencias y estrategias que pueden ser utilizadas por artistas, sellos discográficos y plataformas de streaming para optimizar su alcance y éxito en el mercado musical.
+
+
