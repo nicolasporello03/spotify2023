@@ -32,8 +32,7 @@ Las columnas del dataset son:
 | **released_day**       | Día de lanzamiento de la canción.                                                                                            |
 | **in_spotify_playlists** | Número de playlists en Spotify en las que se encuentra la canción.                                                          |
 | **in_spotify_charts**  | Indicador de si la canción apareció en los charts de Spotify.                                                                |
-| **streams**            | Total de reproducciones que ha acumulado la canción en Spotify.                                                              |
-| **in_apple_playlists** | Número de playlists en Apple Music en las que se encuentra la canción.                                                       |
+| **streams**            | Total de reproducciones que ha acumulado la canción en Spotify.                                                                                                 |
 
 ## Impacto del Proyecto
 
